@@ -1,4 +1,4 @@
-<img src="img/spotify_recommender_logo.png" width=100 alt="logo">
+<img src="spotify_recommender_logo.png" width=100 alt="logo">
 
 *Nicolás M. Japas*
 
