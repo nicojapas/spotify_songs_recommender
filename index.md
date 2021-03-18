@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+<img src="img/spotify_recommender_logo.png" width=100 alt="logo">
 
-You can use the [editor on GitHub](https://github.com/nicojapas/spotify_songs_recommender/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+*Nicolás M. Japas*
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Content
+- [Project Description](#project-description)
+- [Hypotheses / Questions](#hypotheses-questions)
+- [Dataset](#dataset)
+- [Cleaning](#cleaning)
+- [Analysis](#analysis)
+- [Model Training and Evaluation](#model-training-and-evaluation)
+- [Conclusion](#conclusion)
+- [Future Work](#future-work)
+- [Workflow](#workflow)
+- [Organization](#organization)
+- [Links](#links)
 
-### Markdown
+## Project Description
+The goal of the project was to build a song recommender using Spotify API sound features, KMeans clustering and web scraping with Beautiful Soup.
+The user inputs a song's title and then the script returns a new song which matches it's acoustic characteristics.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<img src="img1.png" alt="diagram">
+<img src="img2.png" alt="clustering">
 
-```markdown
-Syntax highlighted code block
+## Hypotheses / Questions
+* How to make use of algorithms to cluster songs based on acoustic data?
+* How to compare and match a particular song with others?
 
-# Header 1
-## Header 2
-### Header 3
+## Dataset
+* The data was obtained by scraping with Beautiful Soup and by using the Spotify API to fetch thousands of songs from the Spotify playlists.
 
-- Bulleted
-- List
+## Cleaning
+* Some cleaning required as not all the songs have complete feature information.
+* Also several duplicates due to the nature of playlists.
 
-1. Numbered
-2. List
+## Analysis
 
-**Bold** and _Italic_ and `Code` text
+## Model Training and Evaluation
 
-[Link](url) and ![Image](src)
-```
+## Conclusion
+* I was able to generate recommendations based on the selected features.
+* The number of clusters selected could be higher. More data or features probably needed.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Future Work
+* The project could be upscaled and refined. The features may not be all relevant.
+* Implementing an interface could be interesting.
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nicojapas/spotify_songs_recommender/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Workflow
 
-### Support or Contact
+## Links
+https://github.com/nicojapas/spotify_songs_recommender
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
