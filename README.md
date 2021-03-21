@@ -4,6 +4,6 @@
 
 Given user's input song, recommends another song based on clustering over Spotify API sound features
 
-![img1](img1.png)
+![img1](img/img1.png)
 
-![img2](img2.png)
+![img2](img/img2.png)
