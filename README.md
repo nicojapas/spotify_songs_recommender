@@ -1,4 +1,4 @@
-![spotify_recommender_logo](spotify_recommender_logo.png)
+![spotify_recommender_logo](img/spotify_recommender_logo.png)
 
 # Spotify Songs Recommender
 
